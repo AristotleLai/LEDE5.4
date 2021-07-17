@@ -18,6 +18,9 @@ rm -rf $GITHUB_WORKSPACE/openwrt/master.zip
 wget -c -O $GITHUB_WORKSPACE/openwrt/master.zip https://github.com/kenzok8/small/archive/refs/heads/master.zip
 sudo unzip $GITHUB_WORKSPACE/openwrt/master.zip
 rm -rf $GITHUB_WORKSPACE/openwrt/master.zip
+wget -c -O $GITHUB_WORKSPACE/openwrt/master.zip https://github.com/destan19/OpenAppFilter/archive/refs/heads/master.zip
+sudo unzip $GITHUB_WORKSPACE/openwrt/master.zip
+rm -rf $GITHUB_WORKSPACE/openwrt/master.zip
 cp -r $GITHUB_WORKSPACE/openwrt/small-master/trojan-plus/ $GITHUB_WORKSPACE/openwrt/package/lean/
 cp -r $GITHUB_WORKSPACE/openwrt/small-master/trojan-go/ $GITHUB_WORKSPACE/openwrt/package/lean/
 cp -r $GITHUB_WORKSPACE/openwrt/small-master/chinadns-ng/ $GITHUB_WORKSPACE/openwrt/package/lean/
@@ -32,6 +35,9 @@ cp -r $GITHUB_WORKSPACE/openwrt/openwrt-packages-master/luci-app-passwall/ $GITH
 cp -r $GITHUB_WORKSPACE/openwrt/openwrt-packages-master/luci-app-openclash/ $GITHUB_WORKSPACE/openwrt/package/lean/
 cp -r $GITHUB_WORKSPACE/openwrt/openwrt-packages-master/luci-app-smartdns/ $GITHUB_WORKSPACE/openwrt/package/lean/
 cp -r $GITHUB_WORKSPACE/openwrt/openwrt-packages-master/luci-app-clash/ $GITHUB_WORKSPACE/openwrt/package/lean/
+cp -r $GITHUB_WORKSPACE/openwrt/OpenAppFilter-master/luci-app-oaf/ $GITHUB_WORKSPACE/openwrt/package/lean/
+cp -r $GITHUB_WORKSPACE/openwrt/OpenAppFilter-master/oaf/ $GITHUB_WORKSPACE/openwrt/package/lean/
+cp -r $GITHUB_WORKSPACE/openwrt/OpenAppFilter-master/open-app-filter/ $GITHUB_WORKSPACE/openwrt/package/lean/
 cp -r $GITHUB_WORKSPACE/openwrt/openwrt-packages-master/luci-theme-argon_new/ $GITHUB_WORKSPACE/openwrt/package/lean/
 cp -r $GITHUB_WORKSPACE/openwrt/openwrt-packages-master/luci-theme-atmaterial/ $GITHUB_WORKSPACE/openwrt/package/lean/
 cp -r $GITHUB_WORKSPACE/openwrt/openwrt-packages-master/luci-theme-opentomato/ $GITHUB_WORKSPACE/openwrt/package/lean/
@@ -44,3 +50,4 @@ cp -r $GITHUB_WORKSPACE/openwrt/openwrt-packages-master/luci-theme-opentomato/ $
 cp -r $GITHUB_WORKSPACE/openwrt/openwrt-packages-master/luci-theme-opentomcat/ $GITHUB_WORKSPACE/openwrt/feeds/luci/themes
 cp -r $GITHUB_WORKSPACE/openwrt/openwrt-packages-master/luci-theme-opentopd/ $GITHUB_WORKSPACE/openwrt/feeds/luci/themes
 cp -r $GITHUB_WORKSPACE/openwrt/openwrt-packages-master/luci-app-argon-config/ $GITHUB_WORKSPACE/openwrt/feeds/luci/themes
+
