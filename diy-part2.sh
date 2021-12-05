@@ -44,10 +44,9 @@ cp -r $GITHUB_WORKSPACE/openwrt/openwrt-packages-master/luci-theme-opentomato/ $
 cp -r $GITHUB_WORKSPACE/openwrt/openwrt-packages-master/luci-theme-opentomcat/ $GITHUB_WORKSPACE/openwrt/package/lean/
 cp -r $GITHUB_WORKSPACE/openwrt/openwrt-packages-master/luci-theme-opentopd/ $GITHUB_WORKSPACE/openwrt/package/lean/
 cp -r $GITHUB_WORKSPACE/openwrt/openwrt-packages-master/luci-app-argon-config/ $GITHUB_WORKSPACE/openwrt/package/lean/
-cp -r $GITHUB_WORKSPACE/openwrt/openwrt-packages-master/luci-theme-argon_new/ $GITHUB_WORKSPACE/openwrt/feeds/luci/themes
-cp -r $GITHUB_WORKSPACE/openwrt/openwrt-packages-master/luci-theme-atmaterial/ $GITHUB_WORKSPACE/openwrt/feeds/luci/themes
-cp -r $GITHUB_WORKSPACE/openwrt/openwrt-packages-master/luci-theme-opentomato/ $GITHUB_WORKSPACE/openwrt/feeds/luci/themes
-cp -r $GITHUB_WORKSPACE/openwrt/openwrt-packages-master/luci-theme-opentomcat/ $GITHUB_WORKSPACE/openwrt/feeds/luci/themes
-cp -r $GITHUB_WORKSPACE/openwrt/openwrt-packages-master/luci-theme-opentopd/ $GITHUB_WORKSPACE/openwrt/feeds/luci/themes
-cp -r $GITHUB_WORKSPACE/openwrt/openwrt-packages-master/luci-app-argon-config/ $GITHUB_WORKSPACE/openwrt/feeds/luci/themes
-
+# cp -r $GITHUB_WORKSPACE/openwrt/openwrt-packages-master/luci-theme-argon_new/ $GITHUB_WORKSPACE/openwrt/feeds/luci/themes
+# cp -r $GITHUB_WORKSPACE/openwrt/openwrt-packages-master/luci-theme-atmaterial/ $GITHUB_WORKSPACE/openwrt/feeds/luci/themes
+# cp -r $GITHUB_WORKSPACE/openwrt/openwrt-packages-master/luci-theme-opentomato/ $GITHUB_WORKSPACE/openwrt/feeds/luci/themes
+# cp -r $GITHUB_WORKSPACE/openwrt/openwrt-packages-master/luci-theme-opentomcat/ $GITHUB_WORKSPACE/openwrt/feeds/luci/themes
+# cp -r $GITHUB_WORKSPACE/openwrt/openwrt-packages-master/luci-theme-opentopd/ $GITHUB_WORKSPACE/openwrt/feeds/luci/themes
+#cp -r $GITHUB_WORKSPACE/openwrt/openwrt-packages-master/luci-app-argon-config/ $GITHUB_WORKSPACE/openwrt/feeds/luci/themes
